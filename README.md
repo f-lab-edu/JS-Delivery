@@ -1,9 +1,29 @@
 # JS-Delivery
 
-### branch
+## branch
 - main
+- develop
+- feature/7
+- setting/mybatis
 - soom
 
+## 개발 일지
+#### ~ 220817
+---
+##### team
+- file structure
+
+##### Soom
+- 환경구축
+  - docker 연결
+  - db 구축
+  - git - jenkins 연결
+- jwt 의존성 추가
+- jwt 개발 ing
+
+##### Jin
+- 환경구축
+- mybatis 의존성 추가
 
 ## ✨Structure
 ```text
