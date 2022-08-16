@@ -12,17 +12,17 @@ api-server-spring-boot
   > gradle
   > src.main.java.com.flab.jsdelivery
     > config
+      | WebSecurityConfig.java // spring-boot-starter-security, jwt 를 사용하기 위한 클래스 
       > secret
         | Secret.java // git에 추적되지 않아야 할 시크릿 키 값들이 작성되어야 하는 곳
-    > src
-      > member
-        > models      
-          | PostMemberReq.java 
-          | PostMemberRes.java 
-        | MemberController.java
-        | MemberService.java
-        | MemberDao.java
-      | WebSecurityConfig.java // spring-boot-starter-security, jwt 를 사용하기 위한 클래스 
+    > controller
+      | MemberController.java
+    > dao
+      | MemberDao.java
+    > dto
+      | MemberDTO.java 
+    > service
+      | MemberService.java
     > utils
       | JwtService.java // jwt 관련 클래스
     | JsdeliveryApplication // SpringBootApplication 서버 시작 지점
