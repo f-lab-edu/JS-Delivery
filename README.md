@@ -1,19 +1,23 @@
 # JS-Delivery
 
-## branch
+## 📌 branch
+```text
 - main
 - develop
 - feature/7
 - setting/mybatis
 - soom
+```
 
-## 개발 일지
+
+## 📜 개발 일지
+
 #### ~ 220817
----
-##### team
+```text
+team
 - file structure
 
-##### Soom
+Soom
 - 환경구축
   - docker 연결
   - db 구축
@@ -21,9 +25,21 @@
 - jwt 의존성 추가
 - jwt 개발 ing
 
-##### Jin
+Jin
 - 환경구축
 - mybatis 의존성 추가
+```
+#### 220818
+```text
+team
+- 
+
+Soom
+- jwt 개발 ing
+
+Jin
+- 
+```
 
 ## ✨Structure
 ```text
@@ -51,3 +67,4 @@ api-server-spring-boot
     | logback-spring.xml // logger 사용시 console, file 설정 값 정의 파일
 build.gradle // gradle 빌드시에 필요한 dependency 설정하는 곳
 .gitignore // git 에 포함되지 않아야 하는 폴더, 파일들을 작성 해놓는 곳
+```
