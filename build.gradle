@@ -26,6 +26,9 @@ dependencies {
 
 	//MyBatis 추가
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+
+	//Mysql 추가
+	implementation 'mysql:mysql-connector-java'
 }
 
 tasks.named('test') {
