@@ -29,16 +29,17 @@ Jin
 - 환경구축
 - mybatis 의존성 추가
 ```
-#### 220818
+#### 220825
 ```text
 team
 - 
 
 Soom
-- jwt 개발 ing
+- 
 
 Jin
-- 
+- Mybatis 적용
+- Owner JWT 로그인 구현 ing 
 ```
 
 ## ✨Structure
